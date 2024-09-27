@@ -1,0 +1,158 @@
+/* styles.css */
+#btnPlay, #btnLoad{
+    -fx-background-color: white;
+    -fx-text-fill: #2DB563;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #2DB563;
+    -fx-border-width: 2px;
+    -fx-border-radius: 18px;
+    -fx-background-radius: 18px;
+}
+
+#btnPlay:hover, #btnLoad:hover {
+    -fx-background-color: #2DB563;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+#btnProblem {
+    -fx-background-color: white;
+    -fx-text-fill: #58B3DA;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #58B3DA;
+    -fx-border-width: 2px;
+    -fx-border-radius: 18px;
+    -fx-background-radius: 18px;
+}
+
+#btnProblem:hover {
+    -fx-background-color: #58B3DA;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+#labelProblem {
+    -fx-font-size: 40px;
+}
+
+#labelChoose {
+    -fx-font-size: 15px;
+}
+
+#comboBoxPrblm {
+    -fx-background-color: white;
+    -fx-padding: 5px;
+    -fx-border-color: #696969;
+    -fx-border-width: 2px;
+    -fx-border-radius: 18px;
+    -fx-background-radius: 18px;
+}
+
+#comboBoxPrblm .list-view {
+    /* Styling de la liste déroulante */
+    -fx-padding: 10px 0 10px 10px;
+    -fx-border-color: #696969;
+    -fx-border-width: 2px;
+    -fx-border-radius: 18px;
+    -fx-background-radius: 18px;
+}
+
+#comboBoxPrblm .list-cell {
+    /* Styling des cellules de la liste déroulante */
+    -fx-border-radius: 18px;
+    -fx-background-radius: 18px;
+}
+
+#comboBoxPrblm .list-cell:hover {
+    /* Styling des cellules de la liste déroulante */
+    -fx-background-color: #696969;
+    -fx-text-fill: white;
+}
+
+#comboBoxPrblm .combo-box-popup .scroll-bar {
+    /* Styling de la barre de défilement dans la liste déroulante (peut ne pas fonctionner sur toutes les plates-formes) */
+    -fx-opacity: 0;
+    -fx-visibility: hidden;
+}
+
+#comboBoxPrblm .combo-box-popup .scroll-bar-thumb {
+    /* Styling du pouce (la partie déplaçable) de la barre de défilement */
+    -fx-background-color: #6699cc;
+}
+
+#btnBack{
+   -fx-border-color: transparent; /* Supprimer la couleur de bordure */
+   -fx-border-width: 0;           /* Supprimer la largeur de bordure */
+   -fx-background-color:transparent; /* Couleur de fond du bouton */
+   -fx-text-fill: black;
+   -fx-font-weight: bold;
+   -fx-font-family: "Arial";
+   -fx-font-size: 12px;
+}
+
+#btnRobot {
+    -fx-cursor: hand; /* Curseur de la main lorsqu'il est survolé */
+}
+
+#btnRobot:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0); /* Ombre portée au survol */
+}
+
+/* Style de toutes les colonnes */
+.column0, .column1, .column2 {
+    -fx-background-color: #ececec;
+    -fx-text-fill: black;
+    -fx-font-size: 17px;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+}
+
+/* Style des colonnes actives */
+.column0.active {
+    -fx-background-color: #58b3da;
+    -fx-text-fill: white;
+}
+
+.column1.active {
+    -fx-background-color: #febc12;
+    -fx-text-fill: white;
+}
+
+.column2.active {
+    -fx-background-color: #7f66ad;
+    -fx-text-fill: white;
+}
+
+#btn {
+    -fx-background-color: white;
+    -fx-text-fill: #2DB563;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #2DB563;
+    -fx-border-width: 2px;
+    -fx-border-radius: 18px;
+    -fx-background-radius: 18px;
+}
+
+#btn:hover {
+    -fx-background-color: #2DB563;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+#errorLabel {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
