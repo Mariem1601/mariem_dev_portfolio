@@ -39,7 +39,7 @@ Development of a version of the famous Tetris game, featuring a graphical interf
 
 Clone this repository:
 ```bash
-git clone https://github.com/Mariem1601/mariem_dev_portfolio
+git clone https://github.com/Mariem1601/mariem_dev_portfolio.git
 ```
 
 Access the project folder:
